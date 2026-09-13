@@ -15,5 +15,5 @@ jobs:
       - env:
           ATERNOS_USER: ${{ secrets.ATERNOS_USER }}
           ATERNOS_PASS: ${{ secrets.ATERNOS_PASS }}
-        run: python main.py
-        
+        run: python .github/workflows/main.py
+
